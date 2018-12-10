@@ -1,0 +1,36 @@
+{
+  "name": "Grace.js",
+  "version": "0.3.0",
+  "description": "Discord.js bot in active development.",
+  "main": "src/index.js",
+  "author": "lovinglyy",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovinglyy/Grace.js"
+  },
+  "keywords": [
+    "grace",
+    "node",
+    "discord",
+    "bot",
+    "redis"
+  ],
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "googleapis": "^33.0.0",
+    "ioredis": "^4.0.0",
+    "node-fetch": "^2.2.0",
+    "node-opus": "^0.3.0",
+    "ytdl-core": "^0.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "eslint ./src/"
+  }
+}
